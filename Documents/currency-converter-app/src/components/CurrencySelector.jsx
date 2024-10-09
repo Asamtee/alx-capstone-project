@@ -2,7 +2,7 @@ import React from "react";
 
 //Creating an array of currency codes and a function to get the country code for flag display
 const currencyCodes = [
-  "AED",
+  "AED-EMIRATI",
   "AFN",
   "ALL",
   "AMD",
