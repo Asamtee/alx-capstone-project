@@ -4,14 +4,22 @@
 
 .toggle-checkbox:checked {
   right: 0;
-  border-color: #68d391;
+  border-color: #68D391;
 }
 .toggle-checkbox:checked + .toggle-label {
-  background-color: #68d391;
+  background-color: #68D391;
 }
 
-/*
-:root {
+
+
+
+
+
+
+
+
+
+/*:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;

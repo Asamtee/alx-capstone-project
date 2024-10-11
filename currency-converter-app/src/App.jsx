@@ -6,14 +6,14 @@ import AmountInput from "./components/AmountInput.jsx";
 import ConversionResult from "./components/ConversionResult.jsx";
 import DarkMode from "./components/DarkMode.jsx";
 
-//Exchange rate api
+//Echange rate api
 const API_KEY = "3a902d0a157e4c5e795ed257";
 
 //App component
 const App = () => {
   //Creating state variables to store current state of the application
 
-  const [fromCurrency, setFromCurrency] = useState("GBP");
+  const [fromCurrency, setFromCurrency] = useState("USD");
   const [toCurrency, setToCurrency] = useState("NGN");
   const [amount, setAmount] = useState(1);
   const [convertedAmount, setConvertedAmount] = useState("");
@@ -79,7 +79,7 @@ const App = () => {
           className={`bg-[#4EEFB2] dark:bg-gray-800 p-7 rounded-lg shadow-xl max-w-md w-full transition-all duration-300`}
         >
           <h1 className="text-xl font-bold mb-6 text-center">
-            $ammy's Bureau de change
+            Bureau de change
           </h1>
           <DarkMode isDarkMode={isDarkMode} onToggle={handleDarkModeToggle} />
           {error && <div className="text-red-500 mb-4">{error}</div>}
